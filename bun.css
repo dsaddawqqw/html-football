@@ -1,0 +1,123 @@
+
+body{
+	font-family: 'Red Hat Text', sans-serif;
+    background-color: rgb(33, 97, 39);
+}
+.container{
+	text-align: center;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url(image/back.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 3rem;
+    color: rgb(227, 227, 227);
+}
+
+.cont {
+    color: rgb(227, 227, 227);
+}
+
+
+a{
+	display: inline-block;
+	padding: 1em 3.5em;
+	background-color: rgb(33, 97, 39);
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 0.3em;
+	font-weight: 700;
+	letter-spacing: .5px;
+	font-size: .875rem;
+}
+
+.blank,
+.other{
+	width: 100%;
+	min-height: 10vh;
+	background-color: rgb(33, 97, 39);
+
+}
+
+.second{
+	background-image: url(image/back.jpg);
+	background-attachment: fixed;
+	height: 1200px;
+}
+
+.card > a{
+	margin-bottom: 2em;
+}
+
+a:hover {
+	background-color: rgb(16, 131, 60);
+}
+
+.second{
+	flex-direction: row;
+	gap: 1.6em;
+}
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+tr {
+    background-color: #f2f2f2;
+}
+
+.items{
+	display: flex;
+	max-width: 320px;
+	background-color: rgb(32, 121, 54);
+	flex-direction: column;
+	align-items: center;
+	border-radius: .5em;
+margin: 22px;
+}
+
+.but{
+
+	display: inline-block;
+	padding: 1em 3.5em;
+	background-color: rgb(33, 97, 39);
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 0.3em;
+	font-weight: 700;
+	letter-spacing: .5px;
+	font-size: .875rem;
+
+}
+
+span {
+	color: aliceblue;
+	margin: 10px;
+	margin-right: 33px;
+}

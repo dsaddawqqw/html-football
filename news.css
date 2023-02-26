@@ -1,0 +1,136 @@
+body{
+    font-family: 'Red Hat Text', sans-serif;
+    background-color: rgb(33, 97, 39);
+}
+
+.container{
+	text-align: center;
+	color: #333;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url(image/back.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 3rem;
+    color: rgb(227, 227, 227);
+}
+
+h3 {
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 10px;
+	padding: 15px;
+}
+
+.cont {
+    color: rgb(227, 227, 227);
+}
+
+p{
+	max-width: 52ch;
+	line-height: 1.5;
+	padding: 1em;
+    color: aliceblue;
+	
+}
+
+a{
+	display: inline-block;
+	padding: 1em 3.5em;
+	background-color: rgb(33, 97, 39);
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 0.3em;
+	font-weight: 700;
+	letter-spacing: .5px;
+	font-size: .875rem;
+}
+
+a:hover {
+	background-color: rgb(16, 131, 60);
+}
+
+.blank,
+.other{
+	width: 100%;
+	min-height: 10vh;
+	background-color: rgb(33, 97, 39);
+}
+
+.item{
+	max-width: auto;
+	background-color: rgb(35, 86, 29);
+	flex-direction: column;
+	border-radius: .5em;
+	-webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+	box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+	
+}
+
+.im {
+	width: 40%;
+	border-radius: 0.6em;
+	transition: all 0.2s ease-in-out;
+}
+
+.im:hover{
+	transform: scale(1.1);
+}
+
+.mu {
+	max-width: auto;
+	background-color: rgb(35, 86, 29);
+	flex-direction: column;
+	border-radius: .5em;
+	-webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+	box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+}
+
+.m {
+	max-width: 68ch;
+	line-height: 1.5;
+	padding: 1em;
+    color: aliceblue;
+	
+}
+
+.items{
+	display: flex;
+	max-width: 320px;
+	background-color: rgb(32, 121, 54);
+	flex-direction: column;
+	align-items: center;
+	border-radius: .5em;
+	margin: 22px
+}
+
+.but{
+
+	display: inline-block;
+	padding: 1em 3.5em;
+	background-color: rgb(33, 97, 39);
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 0.3em;
+	font-weight: 700;
+	letter-spacing: .5px;
+	font-size: .875rem;
+
+}
+
+span {
+	color: aliceblue;
+	margin: 10px;
+	margin-right: 33px;
+}
